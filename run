@@ -8,7 +8,7 @@ do
 
     function_to_fork() {
        git pull
-       node index.js
+#       node index.js
     }
 
     function_to_fork &
