@@ -1,1 +1,3 @@
 This is only here so that the program doesn't need permission to make a new directory because it is already here.
+sudo chmod ugo=rwx tmp
+sudo chown nobody:nogroup tmp
