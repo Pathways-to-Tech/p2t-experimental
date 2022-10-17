@@ -8,5 +8,7 @@ do
     fi
 
     git pull
+    chmod ugo=rwx tmp
+    chown nobody:nogroup tmp
     sleep 24h
 done
