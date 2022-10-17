@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+
 while true
 do
     if [[ $(/usr/bin/id -u) -ne 0 ]]; then
@@ -6,5 +7,6 @@ do
     exit
     fi
 
-    npm run watch
+    git pull
+    sleep 24h
 done
