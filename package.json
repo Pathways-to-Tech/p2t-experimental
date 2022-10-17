@@ -1,10 +1,12 @@
-{
+{ 
   "name": "p2t-experimental",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon --ext *"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "dependencies": {
     "eslint": "^8.25.0",
     "express": "^4.18.2",
-    "express-rate-limit": "^6.6.0"
+    "express-rate-limit": "^6.6.0",
+    "npm-watch": "^0.11.0"
   }
 }
