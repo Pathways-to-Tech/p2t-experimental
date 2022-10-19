@@ -41,5 +41,5 @@ app.get('/about', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-	res.sendFile(__dirname + '404.html');
+	res.sendFile(__dirname + '/404.html');
 });
