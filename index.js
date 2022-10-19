@@ -39,3 +39,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
 	res.sendFile(__dirname + '/about.html');
 });
+
+app.get('*', (req, res) => {
+	res.sendFile(__dirname + '404.html');
+});
