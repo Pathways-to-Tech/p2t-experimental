@@ -6,5 +6,5 @@ do
     exit
     fi
 
-    npm run watch
+    sudo node node_modules/nodemon/bin/nodemon.js index.js
 done
