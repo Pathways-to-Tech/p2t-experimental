@@ -35,3 +35,7 @@ app.get('/', (req, res) => {
 	const time = new Date().toISOString().replace('T', ' ').substring(0, 19);
 	console.log('New request at ' + time);
 });
+
+app.get('/about', (req, res) => {
+	res.sendFile(__dirname + '/about.html');
+});
